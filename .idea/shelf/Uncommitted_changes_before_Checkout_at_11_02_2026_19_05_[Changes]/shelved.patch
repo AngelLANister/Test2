@@ -1,0 +1,16 @@
+Index: 05_lesson/lesson05_task4.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from selenium import webdriver\r\nfrom selenium.webdriver.common.by import By\r\nfrom selenium.webdriver.support.ui import WebDriverWait\r\nfrom selenium.webdriver.support import expected_conditions as EC\r\nfrom selenium.webdriver.common.keys import Keys\r\n\r\ndriver = webdriver.Firefox()\r\ndriver.get(\"http://the-internet.herokuapp.com/login\")\r\nsearch_username_locator = \"[name='username']\"\r\nsearch_input = driver.find_element(By.CSS_SELECTOR, search_username_locator)\r\nsearch_input.send_keys(\"tomsmith\")\r\nsearch_password_locator = \"[name='password']\"\r\nsearch_input = driver.find_element(By.CSS_SELECTOR, search_password_locator)\r\nsearch_input.send_keys(\"SuperSecretPassword!\")\r\nsearch_input.send_keys(Keys.RETURN)\r\nwait = WebDriverWait(driver, 10)\r\nlogin_message = wait.until(\r\n    EC.visibility_of_element_located((By.CSS_SELECTOR, \"#flash\")))\r\nprint(login_message.text)\r\ndriver.quit()\r\n
+===================================================================
+diff --git a/05_lesson/lesson05_task4.py b/05_lesson/lesson05_task4.py
+--- a/05_lesson/lesson05_task4.py	(revision 0617f875c369e7cd186cfbb8bc7c83274cc36430)
++++ b/05_lesson/lesson05_task4.py	(date 1770382641646)
+@@ -4,6 +4,7 @@
+ from selenium.webdriver.support import expected_conditions as EC
+ from selenium.webdriver.common.keys import Keys
+ 
++
+ driver = webdriver.Firefox()
+ driver.get("http://the-internet.herokuapp.com/login")
+ search_username_locator = "[name='username']"
