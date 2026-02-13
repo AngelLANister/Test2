@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eca88238-35db-4cbb-a9a8-3ecdfb4fe9fd" name="Changes" comment="commit № 2" />
+    <list default="true" id="eca88238-35db-4cbb-a9a8-3ecdfb4fe9fd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,50 +56,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests in test_string_utils.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.06_lesson.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson_06-3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.address.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson05_task1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson05_task2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson05_task3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson05_task4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_06-2 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_06-2 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_06-2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_06.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_1_task_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_1_task_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_1_task_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_1_task_3.py..executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_1_task_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_1_task_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_3_task_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_3_task_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_3_task_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mailing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.user.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ya,py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ya.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#7 on lesson6&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bezru/OneDrive/Desktop/Test2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests in test_string_utils.py.executor": "Run",
+    "Python.06_lesson.executor": "Run",
+    "Python.1.executor": "Run",
+    "Python.Lesson_06-3.executor": "Run",
+    "Python.address.executor": "Run",
+    "Python.lesson05_task1.executor": "Run",
+    "Python.lesson05_task2.executor": "Run",
+    "Python.lesson05_task3.executor": "Run",
+    "Python.lesson05_task4.executor": "Run",
+    "Python.lesson_06-2 (3).executor": "Run",
+    "Python.lesson_06-2 (4).executor": "Run",
+    "Python.lesson_06-2.executor": "Run",
+    "Python.lesson_06.executor": "Run",
+    "Python.lesson_1_task_1.executor": "Run",
+    "Python.lesson_1_task_2.executor": "Run",
+    "Python.lesson_1_task_3.executor": "Run",
+    "Python.lesson_1_task_3.py..executor": "Run",
+    "Python.lesson_1_task_4.executor": "Run",
+    "Python.lesson_1_task_5.executor": "Run",
+    "Python.lesson_2_task_1.executor": "Run",
+    "Python.lesson_2_task_2.executor": "Run",
+    "Python.lesson_2_task_3.executor": "Run",
+    "Python.lesson_2_task_4.executor": "Run",
+    "Python.lesson_2_task_5.executor": "Run",
+    "Python.lesson_2_task_6.executor": "Run",
+    "Python.lesson_2_task_7.executor": "Run",
+    "Python.lesson_3_task_1.executor": "Run",
+    "Python.lesson_3_task_2.executor": "Run",
+    "Python.lesson_3_task_3.executor": "Run",
+    "Python.mailing.executor": "Run",
+    "Python.user.executor": "Run",
+    "Python.ya,py.executor": "Run",
+    "Python.ya.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "lesson6",
+    "last_opened_file_path": "C:/Users/bezru/OneDrive/Desktop/Test2",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bezru\OneDrive\Desktop\Test2" />
