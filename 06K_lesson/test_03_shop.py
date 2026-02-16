@@ -4,28 +4,45 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-def test_form_calc():
+def test_summary_total_label():
 
     driver = webdriver.Firefox()
 
-    driver.get("https://bonigarcia.dev/"
-               "selenium-webdriver-java/slow-calculator.html")
-    driver.find_element(By.CSS_SELECTOR, "#delay").clear()
-    driver.find_element(By.CSS_SELECTOR, "#delay").send_keys("45")
-    summ = driver.find_element(By.CLASS_NAME, "keys")
-    summ.find_element(By.XPATH, "//span[text()='7']").click()
-    summ.find_element(By.XPATH, "//span[text()='+']").click()
-    summ.find_element(By.XPATH, "//span[text()='8']").click()
-    summ.find_element(By.XPATH, "//span[text()='=']").click()
+    driver.get("https://www.saucedemo.com/")
+    (driver.find_element
+     (By.CSS_SELECTOR, "#user-name").send_keys("standard_user"))
+    element = driver.find_element(By.CLASS_NAME, "login_password")
+    txt = element.text
+    lines = txt.split("\n")
+    if len(lines) > 0:
+        password_lines = lines[1].strip()
+        password = password_lines.replace('"', '').strip()
+    else:
+        print("Не удалось ввести пароль")
 
-    def screen_has_number(driver):
-
-        text = driver.find_element(By.CLASS_NAME, "screen").text.strip()
-        return text.isdigit()
+    driver.find_element(By.CSS_SELECTOR, "#password").send_keys(password)
+    driver.find_element(By.CSS_SELECTOR, "#login-button").click()
     WebDriverWait(driver, 45).until(
-        EC.text_to_be_present_in_element((By.CLASS_NAME, "screen"), "15")
-    )
-    summ_result = driver.find_element(By.CLASS_NAME, "screen").text
-    assert "15" in summ_result, "Время вычисления истекло"
+            EC.visibility_of_element_located((By.CSS_SELECTOR, ".title")))
+    (driver.find_element
+     (By.CSS_SELECTOR, "#add-to-cart-sauce-labs-backpack").click())
+    (driver.find_element
+     (By.CSS_SELECTOR, "#add-to-cart-sauce-labs-bolt-t-shirt").click())
+    (driver.find_element
+     (By.CSS_SELECTOR, "#add-to-cart-sauce-labs-onesie").click())
+    driver.find_element(By.CSS_SELECTOR, ".shopping_cart_link").click()
+    WebDriverWait(driver, 45).until(
+            EC.visibility_of_element_located((By.CSS_SELECTOR, "#checkout")))
+    driver.find_element(By.CSS_SELECTOR, "#checkout").click()
+    WebDriverWait(driver, 45).until(
+            EC.visibility_of_element_located((By.CSS_SELECTOR, "#first-name")))
+    driver.find_element(By.CSS_SELECTOR, "#first-name").send_keys("Андрей")
+    driver.find_element(By.CSS_SELECTOR, "#last-name").send_keys("Безрук")
+    driver.find_element(By.CSS_SELECTOR, "#postal-code").send_keys(660122)
+    driver.find_element(By.CSS_SELECTOR, "#continue").click()
 
+    total = driver.find_element(By.CLASS_NAME, "summary_total_label")
+    total_txt = total.text
+    price = total_txt.split(":")[1].strip()
+    assert "$58.29" in price, "Ошибка итоговой суммы заказа"
     driver.quit()
