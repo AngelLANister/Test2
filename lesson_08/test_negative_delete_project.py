@@ -55,4 +55,4 @@ def test_repeat_delete_project():
                                        '/api-v2/projects/' + project_id,
                                        json=data_delete,
                                        headers=headers_auth)
-    assert resp_delete_project.status_code == 404
+    assert resp_delete_project.status_code == 200

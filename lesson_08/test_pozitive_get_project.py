@@ -16,11 +16,11 @@ def create_project():
         "title": "НГЧ",
         "users": {}
     }
-    resp_create_project = requests.post(base_url +
+    resp = requests.post(base_url +
                                         '/api-v2/projects',
                                         json=data_project,
                                         headers=headers_auth)
-    return resp_create_project, token
+    return resp, token
 
 
 def test_get_project():
