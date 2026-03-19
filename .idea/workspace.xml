@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eca88238-35db-4cbb-a9a8-3ecdfb4fe9fd" name="Changes" comment="commit № 2" />
+    <list default="true" id="eca88238-35db-4cbb-a9a8-3ecdfb4fe9fd" name="Changes" comment="commit № 2">
+      <change afterPath="$PROJECT_DIR$/lesson_10/AuthorizationPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/CalcPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/CartPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/MainPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/OrderPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/test_Order_10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/test_calc_page_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_02_2026_19_05_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_02_2026_19_05__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_07/test_Order.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_07/test_Order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_07/test_calc_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_07/test_calc_page.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,56 +70,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests in test_string_utils.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.06_lesson.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson_06-3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.address.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson05_task1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson05_task2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson05_task3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson05_task4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_06-2 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_06-2 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_06-2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_06.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_1_task_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_1_task_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_1_task_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_1_task_3.py..executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_1_task_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_1_task_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2_task_7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_3_task_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_3_task_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_3_task_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mailing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.user.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ya,py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ya.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#7 on lesson6&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bezru/OneDrive/Desktop/Test2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests in test_Order.py.executor": "Run",
+    "Python tests.Python tests in test_calc_page.py.executor": "Run",
+    "Python tests.Python tests in test_calc_page_10.py.executor": "Run",
+    "Python tests.Python tests in test_string_utils.py.executor": "Run",
+    "Python.06_lesson.executor": "Run",
+    "Python.1.executor": "Run",
+    "Python.CalcPage.executor": "Run",
+    "Python.Lesson_06-3.executor": "Run",
+    "Python.address.executor": "Run",
+    "Python.lesson05_task1.executor": "Run",
+    "Python.lesson05_task2.executor": "Run",
+    "Python.lesson05_task3.executor": "Run",
+    "Python.lesson05_task4.executor": "Run",
+    "Python.lesson_06-2 (3).executor": "Run",
+    "Python.lesson_06-2 (4).executor": "Run",
+    "Python.lesson_06-2.executor": "Run",
+    "Python.lesson_06.executor": "Run",
+    "Python.lesson_1_task_1.executor": "Run",
+    "Python.lesson_1_task_2.executor": "Run",
+    "Python.lesson_1_task_3.executor": "Run",
+    "Python.lesson_1_task_3.py..executor": "Run",
+    "Python.lesson_1_task_4.executor": "Run",
+    "Python.lesson_1_task_5.executor": "Run",
+    "Python.lesson_2_task_1.executor": "Run",
+    "Python.lesson_2_task_2.executor": "Run",
+    "Python.lesson_2_task_3.executor": "Run",
+    "Python.lesson_2_task_4.executor": "Run",
+    "Python.lesson_2_task_5.executor": "Run",
+    "Python.lesson_2_task_6.executor": "Run",
+    "Python.lesson_2_task_7.executor": "Run",
+    "Python.lesson_3_task_1.executor": "Run",
+    "Python.lesson_3_task_2.executor": "Run",
+    "Python.lesson_3_task_3.executor": "Run",
+    "Python.mailing.executor": "Run",
+    "Python.user.executor": "Run",
+    "Python.ya,py.executor": "Run",
+    "Python.ya.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "lesson10",
+    "last_opened_file_path": "C:/Users/bezru/OneDrive/Desktop/Test2/lesson_10",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bezru\OneDrive\Desktop\Test2\lesson_10" />
       <recent name="C:\Users\bezru\OneDrive\Desktop\Test2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Lesson_06-3">
+  <component name="RunManager">
     <configuration name="Lesson_06-3" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Test2" />
       <option name="ENV_FILES" value="" />
@@ -275,10 +294,10 @@
       <item itemvalue="Python.Lesson_06-3" />
       <item itemvalue="Python.lesson_06 (2)" />
       <item itemvalue="Python.lesson_06-2 (2)" />
-      <item itemvalue="Python.lesson_06-2 (3)" />
-      <item itemvalue="Python.lesson_06-2 (4)" />
       <item itemvalue="Python.lesson_06-2" />
       <item itemvalue="Python.lesson_06" />
+      <item itemvalue="Python.lesson_06-2 (3)" />
+      <item itemvalue="Python.lesson_06-2 (4)" />
     </list>
     <recent_temporary>
       <list>
@@ -408,6 +427,19 @@
           <url>file://$PROJECT_DIR$/06_lesson/06_lesson.py</url>
           <line>15</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson_10/test_calc_page_10.py</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson_10/MainPage.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson_07/test_Order.py</url>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
